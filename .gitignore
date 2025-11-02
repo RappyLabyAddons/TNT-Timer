@@ -69,6 +69,7 @@ docs/generated/
 
 # Project
 run/
+.assetsroot
 
 # LabyGradle | Addon Plugin
 build-data.txt
