@@ -10,10 +10,10 @@ import net.labymod.api.configuration.loader.property.ConfigProperty;
 
 @ConfigName("settings")
 @SpriteTexture("settings.png")
-public class TNTTimerConfig extends AddonConfig {
+public class TntTimerConfig extends AddonConfig {
 
   @SwitchSetting
-  @PermissionRequired("tnttimer")
+  @PermissionRequired(TntTimerAddon.PERMISSION)
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
 
   @SpriteSlot
